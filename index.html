@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo do contêiner flexível */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribui os perfis ao redor do espaço disponível */
+            padding: 20px;
+        }
+
+        /* Estilo do perfil individual */
+        .profile {
+            border: 1px solid;
+            flex: 1; /* Ocupa uma parte flexível do contêiner */
+            background-color: #252525;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo da imagem do perfil */
+        .profile img {
+            width: 50%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do rodapé */
+        footer {    
+            background-color: #252525;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixa o rodapé na parte inferior da tela */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Perfil</h1>
+    </header>
+
+    <!-- Contêiner de perfis -->
+    <div class="container">
+        <!-- Perfil 1 -->
+        <div class="profile">
+            <img src="R.jpg" alt="Minha Foto"">
+            <h2>Guilherme Guerra</h2>
+            <p>Tenho 22 anos, sou uma pessoa que ama fazer programa</p>
+        </div>
+
+        <!-- Perfil 2 -->
+        <div class="profile">
+            <img src="download (4).jpg" alt="Minha Foto 2">
+            <h2>Paulo</h2>
+            <p>gosto de jogar cs2 e assistir serie nas minhas horas vagas</p>
+        </div>
+
+        <!-- Adicione mais perfis conforme necessário -->
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2023 Meu Perfil
+    </footer>
+
+</body>
+</html>
